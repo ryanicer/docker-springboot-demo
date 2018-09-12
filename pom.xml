@@ -20,11 +20,16 @@
 	
 	<repositories>
 		<repository>
-		    <id>alimaven</id>
-		    <name>aliyun maven</name>
-		    <url>http://maven.aliyun.com/nexus/content/groups/public/</url>
+		    <id>nexus-daocloud</id>
+		    <name>Nexus daocloud</name>
+		    <url>http://nexus.daocloud.io/repository/maven-public/</url>
+		</repository> 
+		<!-- 可以设置多个repository，在实际的开发过程中会从中心仓库取到 -->
+		<repository>
+		    <id>central</id>
+		     <url>http://repo1.maven.org/maven2/</url>
 		</repository>
-	    </repositories>
+   	</repositories>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
