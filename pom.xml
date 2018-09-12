@@ -17,6 +17,14 @@
 		<version>2.0.4.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
+	
+	<repositories>
+		<repository>
+		    <id>alimaven</id>
+		    <name>aliyun maven</name>
+		    <url>http://maven.aliyun.com/nexus/content/groups/public/</url>
+		</repository>
+	    </repositories>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
